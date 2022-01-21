@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <section>
+        <div id="res"></div>
+        <div id="botao" class="botao">
+            
+            <p>
+                <input type="button" value="C" id="lim">
+                <input type="button" value="&#xf55a;" id="apa">
+                <input type="button" value="+/-" id="mem">
+                <input type="button" value="&divide;" class="op" onclick="addo('/')">
+            </p>
+            <p>
+                <input type="button" value="1" class="num" onclick="addn(1)">
+                <input type="button" value="2" class="num" onclick="addn(2)">
+                <input type="button" value="3" class="num" onclick="addn(3)">
+                <input type="button" value="&times;" class="op"  onclick="addo('x')">
+            </p>
+            <p>
+                <input type="button" value="4" class="num" onclick="addn(4)">
+                <input type="button" value="5" class="num" onclick="addn(5)">
+                <input type="button" value="6" class="num" onclick="addn(6)">
+                <input type="button" value="-" class="op"  onclick="addo('-')">
+            </p>
+            <p>
+                <input type="button" value="7" class="num" onclick="addn(7)">
+                <input type="button" value="8" class="num" onclick="addn(8)">
+                <input type="button" value="9" class="num" onclick="addn(9)">
+                <input type="button" value="+" class="op"  onclick="addo('+')">
+            </p>
+            <p>
+                <input type="button" value="0" class="num" id="zero" onclick="addn(0)">
+                <input type="button" value="." id="pon" onclick="addn('.')">
+                <input type="button" value="=" id="igu">
+            </p>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
