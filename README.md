@@ -1,6 +1,6 @@
 # calculadora-js
 
 <p align="center">
-  <img alt="Demo" src="./img/calculadora.png">
+  <img alt="Demo" src="./img/calculadora.gif">
 </p>
  
