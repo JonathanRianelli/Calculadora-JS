@@ -1,4 +1,4 @@
-# calculadora-js
+# Calculadora JS
 
 <p>Acesse o projeto <a href="https://jonathanrianelli.github.io/calculadora-js/">aqui</a></p>
 
