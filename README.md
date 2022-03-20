@@ -4,7 +4,7 @@
 
 ## Descrição
 
-<p>Projeto criado por mim, Fiz com a intenção de praticar meu JavaScript</p>
+<p>Projeto criado por mim, feito com a intenção de praticar meu JavaScript</p>
 
 
 ## Linguagens Usadas
