@@ -7,7 +7,7 @@
 <p>Projeto criado por mim, feito com a intenção de praticar meu JavaScript</p>
 
 
-## Linguagens Usadas
+## Tecnologias Usadas
 - ✔️ HTML
 - ✔️ CSS
 - ✔️ JavaScript
